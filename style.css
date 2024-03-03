@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+a {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+span {
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 50px;
+  border-radius: 50px;
+  background-image: linear-gradient(90deg, #003f7a, #00d679, #003f7a);
+  background-size: 300% 100%;
+  animation: span 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes span {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: all 0.6s ease-out;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #757575;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  background-color: #f8f8f8;
+  color: black;
+  border-radius: 5px;
+}
+
+button {
+  font-family: "Figtree", sans-serif;
+  background-color: #0066ff; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #185abc;
+}
+
+.mini {
+  padding: 6px 16px;
+  text-align: right;
+  position: fixed;
+  margin: 12px;
+  top: 0;
+  right: 0;
+}
+
+.screen {
+  border-radius: 8px;
+}
+
+.card {
+  text-align: left;
+  max-width: 500px;
+  margin: 20px;
+  border-radius: 24px;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card h2 {
+  font-size: 22px;
+}
+
+footer {
+  border: 1px solid #e7e7e7;
+  background-color: #f1f3f4;
+  text-align: left;
+  padding: 20px;
+}
