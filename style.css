@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+b {
+  color: #097b8f;
+}
+
 span {
   color: white;
   padding: 8px 20px;
